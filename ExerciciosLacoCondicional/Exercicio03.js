@@ -2,7 +2,6 @@ const leia = require('readline-sync')
 
 let idade, nome, doacaoVez
 
-
 nome = leia.question("Digite o nome do doador: ")
 idade = leia.questionInt("Digite a idade do doador: ")
 doacaoVez = leia.keyInYNStrict("Primeira vez doando?")
