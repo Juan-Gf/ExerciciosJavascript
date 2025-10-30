@@ -6,7 +6,7 @@ console.log("Vertebrado | Invertebrado")
 colunaV = leia.question("Escolha uma opcao: ")
 
 if(colunaV == "Vertebrado"){
-    console.log("\nAve | Mamuifero")
+    console.log("\nAve | Mamifero")
     tipoAni = leia.question("Escolha uma opcao: ")
     if(tipoAni == "Ave"){
         console.log("\nCarnivoro | Onivoro")
